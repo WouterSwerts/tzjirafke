@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-<!--    <link rel="manifest" href="img/site.webmanifest">-->
+    <!--    <link rel="manifest" href="img/site.webmanifest">-->
     <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#77bdf2">
     <meta name="msapplication-TileColor" content="#77bdf2">
     <meta name="theme-color" content="#ffffff">
@@ -19,29 +19,10 @@
 
 </head>
 <body>
-<div class="hoofding">
-    <?php include "header.php"?>
-</div>
-<div class="content">
-    <div class="welkom tekstbox">
-        <h4>Welkom bij kinderdagverblijf 't Zjirafke</h4>
-        <p>'t Zjirafke is een kinderdagverblijf te Mol-Rauw dat wordt uitgebaat door Ria en Katrien. Via deze website hopen zij u een overzicht te geven over de werking van hun kinderdagverblijf.
-            <br><br>Na het maken van een afspraak ben je welkom om een kijkje te komen nemen.
-            <br><br>'t Zjirafke is open van maandag tot en met vrijdag van 7u tot 18u.</p>
-        <button>Lees meer</button>
-
-    </div>
-    <div class="gedicht tekstbox"></div>
-    <div class="ditdat tekstbox"></div>
-    <div class="dagje tekstbox"></div>
-    <div class="contact tekstbox"></div>
-</div>
-
-
+<?php include "header.php"?>
 
 
 
 
 </body>
 </html>
-

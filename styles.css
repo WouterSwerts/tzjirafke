@@ -25,6 +25,10 @@ p {
     font-family: Chalkboard, "Comic Sans MS", fantasy;
     color: white;
     margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
 }
 
 h4 {

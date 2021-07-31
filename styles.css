@@ -24,15 +24,27 @@ button {
 p {
     font-family: Chalkboard, "Comic Sans MS", fantasy;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-size: 14px;
     font-weight: 200;
     line-height: 1.5em;
     letter-spacing: 0.5px;
+
 }
 
 h4 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-family: 'Unkempt', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    /*color: #BBBBBB;*/
+    color: #555555;
+    letter-spacing: 1px;
+    font-stretch: extra-expanded;
+    border-bottom-style: groove;
+    border-bottom-width: 1px;
+    border-bottom-color: #E9E9E9;
 }
 
 /* HEADER */
@@ -149,7 +161,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px 10px;
+    gap: 15px 15px;
     grid-auto-flow: row;
     grid-template-areas:
     ". . ."
@@ -158,6 +170,7 @@ a:hover {
 
 .tekstbox {
     padding: 10px;
+    box-shadow: 10px 10px 10px #888888;
 }
 
 .welkom {
@@ -165,6 +178,10 @@ a:hover {
     border-radius: 5px;
     grid-column-start: 1;
     grid-column-end: 3;
+}
+
+.welkom button {
+    color: #C0283F;
 }
 
 .gedicht {
@@ -190,4 +207,12 @@ a:hover {
     background: #5CAF91;
     border-radius: 5px;
     grid-row-start: 2;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 10px #888888;
+    background-color: #6CBE1C;
 }

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f8d2a0e-0aff-4b12-83f8-8a5b79335130" name="Changes" comment="header klaar en begonnen aan body" />
+    <list default="true" id="8f8d2a0e-0aff-4b12-83f8-8a5b79335130" name="Changes" comment="header klaar en begonnen aan body">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="index_aanmaken" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +67,7 @@
       <updated>1627633706829</updated>
       <workItem from="1627633708081" duration="10112000" />
       <workItem from="1627648358498" duration="39000" />
+      <workItem from="1627743407326" duration="1728000" />
     </task>
     <task id="LOCAL-00001" summary="header aanmaken">
       <created>1627634320277</created>

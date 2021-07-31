@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #BBBBBB;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    font-family: Chalkboard, "Comic Sans MS", fantasy;
+    text-align: center;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border-style: none;
+    background: white;
+    color: black;
+}
+
+p {
+    font-family: Chalkboard, "Comic Sans MS", fantasy;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+/* HEADER */
+/* alle opmaak voor de header */
+.hoofding {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+header {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 10px #888888;
+    border-radius: 7px;
+}
+
+.logo {
+    border-radius: 10px 10px 0 0;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    max-width: 960px;
+    background: #77BDF2;
+}
+
+.tekst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.tekst h1 {
+    font-weight: 900;
+    letter-spacing: -6px;
+    font-family: "Henny Penny", fantasy;
+    font-size: 110px;
+    text-shadow: 4px 2px #eeeeee;
+
+}
+
+.tekst h3 {
+    font-family: "Happy Monkey", fantasy;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px #eeeeee;
+    margin-left: 180px;
+}
+
+.navBar {
+    border-radius: 0 0 10px 10px;
+    margin-top: -4px;
+    padding: 10px 40px 10px 40px;
+    background: #6cbe1c;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Unkempt, fantasy;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-stretch: extra-expanded;
+}
+
+a:hover {
+    color: white;
+}
+
+.nav {
+    padding-top: 22px;
+    text-align: center;
+    width: 140px;
+    height: 63px;
+}
+
+.nav1 {
+    background-image: url("img/nav1.png");
+}
+
+.nav2 {
+    background-image: url("img/nav2.png");
+}
+
+.nav3 {
+    background-image: url("img/nav3.png");
+}
+
+.nav4 {
+    background-image: url("img/nav4.png");
+}
+
+.nav5 {
+    background-image: url("img/nav5.png");
+}
+
+/* EINDE HEADER*/
+
+
+/* CONTENT */
+.content {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". . ."
+    ". . .";
+}
+
+.tekstbox {
+    padding: 10px;
+}
+
+.welkom {
+    background: #C0283F;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.gedicht {
+    background: #F68E01;
+    border-radius: 5px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.ditdat {
+    background: #F8C901;
+    border-radius: 5px;
+    grid-row-start: 2;
+}
+
+.dagje {
+    background: #009A57;
+    border-radius: 5px;
+    grid-row-start: 2;
+}
+
+.contact {
+    background: #5CAF91;
+    border-radius: 5px;
+    grid-row-start: 2;
+}

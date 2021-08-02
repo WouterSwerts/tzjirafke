@@ -39,6 +39,7 @@
         <p>GSM Ria: 0498/11 04 79</p>
         <p>GSM Katrien: 0497/28 96 39</p>
         <p>Email: info@tzjirafke.be</p>
+        <br>
         <a href="contact.php"><button>Lees meer</button></a>
     </div>
     <div class="doel tekstbox">

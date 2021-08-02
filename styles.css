@@ -239,10 +239,31 @@ button:hover {
     margin-bottom: 2px;
 }
 
+/* EINDE CONTENT */
+
 /* FOOTER */
 footer {
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto 15px auto;
     display: flex;
     flex-direction: row;
+    max-width: 960px;
     box-shadow: 10px 10px 10px #888888;
+    border-radius: 7px;
     background-color: #6CBE1C;
+}
+
+footer p {
+    margin: 0 5px 0 5px;
+    padding: 0;
+}
+
+footer a {
+    font-family: Chalkboard, "Comic Sans MS", fantasy;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
 }

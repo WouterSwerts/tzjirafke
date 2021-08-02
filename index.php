@@ -58,6 +58,10 @@
     </div>
 </div>
 
+<div class="footerIndex">
+    <?php include "footer.php"?>
+</div>
+
 
 
 

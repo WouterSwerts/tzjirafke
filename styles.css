@@ -33,18 +33,21 @@ p {
 }
 
 h4 {
+    margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Unkempt', cursive;
     font-size: 24px;
     font-weight: 500;
     text-decoration: none;
     /*color: #BBBBBB;*/
-    color: #555555;
+    /*color: #555555;*/
+    color: white;
     letter-spacing: 1px;
     font-stretch: extra-expanded;
     border-bottom-style: groove;
     border-bottom-width: 1px;
-    border-bottom-color: #E9E9E9;
+    /*border-bottom-color: #E9E9E9;*/
+    border-bottom-color: white;
 }
 
 /* HEADER */
@@ -129,6 +132,10 @@ a:hover {
     height: 63px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .nav1 {
     background-image: url("img/nav1.png");
 }
@@ -168,16 +175,22 @@ a:hover {
     ". . .";
 }
 
+.content button {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
 .tekstbox {
     padding: 10px;
     box-shadow: 10px 10px 10px #888888;
+    border-radius: 5px;
 }
 
 .welkom {
     background: #C0283F;
-    border-radius: 5px;
     grid-column-start: 1;
     grid-column-end: 3;
+    /*padding-bottom: 0px;*/
 }
 
 .welkom button {
@@ -186,27 +199,44 @@ a:hover {
 
 .gedicht {
     background: #F68E01;
-    border-radius: 5px;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
+.gedicht button {
+    color: #F68E01;
+}
+
 .ditdat {
     background: #F8C901;
-    border-radius: 5px;
     grid-row-start: 2;
+}
+
+.ditdat button {
+    color: #F8C901;
 }
 
 .dagje {
     background: #009A57;
-    border-radius: 5px;
     grid-row-start: 2;
+}
+
+.dagje button {
+    color: #009A57;
 }
 
 .contact {
     background: #5CAF91;
-    border-radius: 5px;
     grid-row-start: 2;
+}
+
+.contact button {
+    color: #5CAF91;
+}
+
+.contact p {
+    text-align: center;
+    margin-bottom: 2px;
 }
 
 /* FOOTER */

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f8d2a0e-0aff-4b12-83f8-8a5b79335130" name="Changes" comment="Over Ons aangemaakt, grid is nog niet helemaal goed">
-      <change afterPath="$PROJECT_DIR$/ditdat.php" afterDir="false" />
+    <list default="true" id="8f8d2a0e-0aff-4b12-83f8-8a5b79335130" name="Changes" comment="Over Ons helemaal klaar">
+      <change afterPath="$PROJECT_DIR$/dagje.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/over.php" beforeDir="false" afterPath="$PROJECT_DIR$/over.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <workItem from="1627633708081" duration="10112000" />
       <workItem from="1627648358498" duration="39000" />
       <workItem from="1627743407326" duration="2389000" />
-      <workItem from="1627888011790" duration="12345000" />
+      <workItem from="1627888011790" duration="13899000" />
     </task>
     <task id="LOCAL-00001" summary="header aanmaken">
       <created>1627634320277</created>
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627896929586</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Over Ons helemaal klaar">
+      <created>1627909160641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627909160641</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +153,7 @@
     <MESSAGE value="footer afgewerkt" />
     <MESSAGE value="layout beter gemaakt" />
     <MESSAGE value="Over Ons aangemaakt, grid is nog niet helemaal goed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Over Ons aangemaakt, grid is nog niet helemaal goed" />
+    <MESSAGE value="Over Ons helemaal klaar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Over Ons helemaal klaar" />
   </component>
 </project>

@@ -24,7 +24,7 @@
 </div>
 
 <div class="dagjeGrid">
-    <div class="dagje tekstbox">
+    <div class="dagjeIntro tekstbox">
         <h4>Een dagje in 't Zjirafke</h4>
         <p>Onze kindjes zijn welkom vanaf 7u.</p>
         <p>Wij vinden het belangrijk om regelmaat te bieden. Op die manier ontstaat er voor de kinderen een gevoel van herkenning, regelmaat en rust. Zo zijn er vaste momenten voor eten, slapen en verschonen (dit gebeurt natuurlijk steeds wanneer het nodig is). Tussendoor wordt er gespeeld, geknutseld, gaan we buiten spelen, dansen, zingen.</p>

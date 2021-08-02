@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f8d2a0e-0aff-4b12-83f8-8a5b79335130" name="Changes" comment="index afgewerkt">
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+    <list default="true" id="8f8d2a0e-0aff-4b12-83f8-8a5b79335130" name="Changes" comment="footer afgewerkt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +67,7 @@
       <workItem from="1627633708081" duration="10112000" />
       <workItem from="1627648358498" duration="39000" />
       <workItem from="1627743407326" duration="2389000" />
-      <workItem from="1627888011790" duration="2385000" />
+      <workItem from="1627888011790" duration="4233000" />
     </task>
     <task id="LOCAL-00001" summary="header aanmaken">
       <created>1627634320277</created>
@@ -101,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627889312973</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="footer afgewerkt">
+      <created>1627890576546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627890576546</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +128,7 @@
     <MESSAGE value="header klaar en begonnen aan body" />
     <MESSAGE value="index stukken gemaakt, enkel footer nog afwerken, maar kan ik beset ook includen want is op elke pagina aanwezig" />
     <MESSAGE value="index afgewerkt" />
-    <option name="LAST_COMMIT_MESSAGE" value="index afgewerkt" />
+    <MESSAGE value="footer afgewerkt" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer afgewerkt" />
   </component>
 </project>

@@ -50,6 +50,17 @@ h4 {
     border-bottom-color: white;
 }
 
+h6 {
+    font-family: 'Unkempt', cursive;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #555555;
+    letter-spacing: 1px;
+    font-stretch: extra-expanded;
+    margin-bottom: 15px;
+}
+
 /* HEADER */
 /* alle opmaak voor de header */
 .hoofding {
@@ -289,3 +300,68 @@ footer a {
     line-height: 1.5em;
     letter-spacing: 0.5px;
 }
+
+/* OverOns Pagina */
+
+.OverOnsGrid {
+    margin-top: 15px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px 15px;
+}
+
+.wie {
+    grid-column: 1;
+    grid-row: 1/3;
+    background-color: #F68E01;
+}
+
+.contactOverOns {
+    background: #5CAF91;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.contactOverOns button {
+    margin-top: 10px;
+    color: #5CAF91;
+}
+
+.contactOverOns p {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.doel {
+    background-color: #F8C901;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.doel p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: Unkempt, cursive;
+
+}
+
+.visie {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #009A57;
+
+}
+
+.openingsuren {
+    background-color: #F68E01;
+    grid-column: 2;
+    grid-row: 3;
+}
+

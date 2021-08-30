@@ -1,3 +1,16 @@
+<?php
+include "loginCode.php";
+?>
+
+<?php
+function openEdit() {
+    header("edit.php");
+}
+
+?>
+
+
+
 <!doctype html>
 <html lang="nl">
 <head>
@@ -29,6 +42,9 @@
             <p>Na het maken van een afspraak ben je welkom om een kijkje te komen nemen.</p>
             <p>'t Zjirafke is open van maandag tot en met vrijdag van 7u tot 18u.</p>
         <a href="over.php"><button>Lees meer</button></a>
+<!--        --><?php //editToolzichtbaar(); ?>
+<!--        <a href="edit.php">Test</a>-->
+<!--        <img src='img/edit.svg' alt='edit' class='editTool' onclick="openEdit()">-->
 
     </div>
     <div class="gedicht tekstbox">
@@ -36,16 +52,19 @@
         <p>Een van de ouders heeft voor ons een gedichtje geschreven. Wij waren hierdoor zo ontroerd, dat we het graag met jullie willen delen.</p>
         <p>Druk hieronder op de knop om het te lezen!</p>
         <a href="gedicht.php"><button>Lees meer</button></a>
+        <?php editToolzichtbaar(); ?>
     </div>
     <div class="ditdat tekstbox">
         <h4>Ditjes & Datjes</h4>
         <p>Het menu 'Ditjes & Datjes' bevat vooral praktische informatie voor de ouders zoals: hoe inschrijven, informatie over het IKT-systeem, huishoudelijk reglement en dergelijke meer.</p>
         <a href="ditdat.php"><button>Lees meer</button></a>
+        <?php editToolzichtbaar(); ?>
     </div>
     <div class="dagje tekstbox">
         <h4>Dagje 't Zjirafke</h4>
         <p>Bij 't Zjirafke zal er steeds worden getracht om elk kind de individuele aandacht te geven die het nodig heeft. Doch werd er een algemene dagplanning opgesteld die je hier kan bekijken. </p>
         <a href="dagje.php"><button>Lees meer</button></a>
+        <?php editToolzichtbaar(); ?>
     </div>
     <div class="contact tekstbox">
         <h4>Contacteer ons</h4>
@@ -55,6 +74,7 @@
         <p>GSM Katrien: 0497/28 96 39</p>
         <p>Email: info@tzjirafke.be</p>
         <a href="contact.php"><button>Lees meer</button></a>
+        <?php editToolzichtbaar(); ?>
     </div>
 </div>
 

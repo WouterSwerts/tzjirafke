@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f8d2a0e-0aff-4b12-83f8-8a5b79335130" name="Changes" comment="contact klaar">
-      <change afterPath="$PROJECT_DIR$/databaseGegevens.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gedicht.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingelogd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loginCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+    <list default="true" id="8f8d2a0e-0aff-4b12-83f8-8a5b79335130" name="Changes" comment="db connectie voor content">
+      <change afterPath="$PROJECT_DIR$/contentCode.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP/Login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -81,7 +74,11 @@
       <workItem from="1629961259663" duration="717000" />
       <workItem from="1630070345988" duration="2591000" />
       <workItem from="1630308352094" duration="132000" />
-      <workItem from="1630330704378" duration="6329000" />
+      <workItem from="1630330704378" duration="9344000" />
+      <workItem from="1630411018328" duration="596000" />
+      <workItem from="1630418114798" duration="427000" />
+      <workItem from="1632295324983" duration="77000" />
+      <workItem from="1632295468462" duration="3057000" />
     </task>
     <task id="LOCAL-00001" summary="header aanmaken">
       <created>1627634320277</created>
@@ -153,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627912234767</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="db connectie voor content">
+      <created>1630339339645</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1630339339645</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +187,7 @@
     <MESSAGE value="Over Ons helemaal klaar" />
     <MESSAGE value="Dagje klaar" />
     <MESSAGE value="contact klaar" />
-    <option name="LAST_COMMIT_MESSAGE" value="contact klaar" />
+    <MESSAGE value="db connectie voor content" />
+    <option name="LAST_COMMIT_MESSAGE" value="db connectie voor content" />
   </component>
 </project>

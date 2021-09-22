@@ -51,7 +51,8 @@ function updateContent() {
 
 <form method="post">
 <!--    <label for="input">Test</label>-->
-    <input type="text" value="<?php echo getContent() ?>" name="input" style="width: 1000px; height: 30px">
+    <textarea rows = "5" cols = "50" name ="input"><?php echo getContent() ?></textarea>
+<!--    <input type="text" value="--><?php //echo getContent() ?><!--" name="input" style="width: 1000px; height: 30px">-->
     <input type="submit" value="Opslaan" onclick="<?php updateContent() ?>">
 </form>
 

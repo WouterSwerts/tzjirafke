@@ -1,11 +1,14 @@
 <?php
 include "loginCode.php";
+include "contentCode.php";
 ?>
 
 <?php
 function openEdit() {
     header("edit.php");
 }
+
+getContent();
 
 ?>
 
@@ -38,9 +41,11 @@ function openEdit() {
 <div class="content">
     <div class="welkom tekstbox">
         <h4>Welkom bij kinderdagverblijf 't Zjirafke</h4>
-        <p>'t Zjirafke is een kinderdagverblijf te Mol-Rauw dat wordt uitgebaat door Ria en Katrien. Via deze website hopen zij u een overzicht te geven over de werking van hun kinderdagverblijf.</p>
-            <p>Na het maken van een afspraak ben je welkom om een kijkje te komen nemen.</p>
+
+        <?php echo content(0, 4, 80);?>
+        <?php echo content(1, 2, 80);?>
             <p>'t Zjirafke is open van maandag tot en met vrijdag van 7u tot 18u.</p>
+
         <a href="over.php"><button>Lees meer</button></a>
 <!--        --><?php //editToolzichtbaar(); ?>
 <!--        <a href="edit.php">Test</a>-->
